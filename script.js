@@ -79,3 +79,14 @@ removeIcon.addEventListener("click", () => {
     infoTextEl.style.color = "black";
     infoTextEl.innerHTML = "Type a word & click 'ENTER' to get the results.";
 });
+
+//The code performs the following tasks:
+
+//It selects various elements from the DOM using document.querySelector and assigns them to variables.
+//It adds an event listener to the search input field for the keyup event to capture the entered word when the Enter key is pressed.
+//The fetchApi function is responsible for fetching data from the API using the entered word.
+//Inside the fetchApi function, it updates the UI to show a loading message and sends a request to the dictionary API to retrieve the meaning of the word.
+//If the API returns a valid response, it updates the UI with the word's information, such as definitions, phonetics, synonyms, and source URLs.
+//If the API does not find a meaning for the word, it updates the UI to show an error message.
+//There is an event listener for the volume button, which plays the audio pronunciation of the word when clicked.
+//There is an event listener for the remove icon, which clears the search input field, resets the UI, and provides an initial instruction message.

@@ -80,7 +80,7 @@ removeIcon.addEventListener("click", () => {
     infoTextEl.innerHTML = "Type a word & click 'ENTER' to get the results.";
 });
 
-//The code performs the following tasks:
+//This script performs the following tasks:
 
 //It selects various elements from the DOM using document.querySelector and assigns them to variables.
 //It adds an event listener to the search input field for the keyup event to capture the entered word when the Enter key is pressed.
